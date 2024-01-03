@@ -720,3 +720,98 @@ footer p {
     text-align: justify;
   }
 }
+
+/* social icons */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.me {
+  width: 400px;
+  margin: 90px auto;
+}
+.me p,
+.me h1 {
+  letter-spacing: 3px;
+  text-align: center;
+}
+.me p {
+  font-weight: 200;
+}
+.me span {
+  font-weight: bold;
+}
+.social {
+  position: fixed;
+  top: 25%;
+  left: 15px;
+}
+.social ul {
+  padding: 0px;
+  transform: translate(-270px, 0);
+}
+.social ul li {
+  display: block;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.36);
+  width: 320px;
+  text-align: right;
+  padding: 8px;
+  border-radius: 0 40px 40px 0;
+  transition: all 1s;
+}
+.social ul .l1:hover {
+  transform: translate(130px, 0);
+  background: rgba(255, 255, 255, 0.4);
+}
+.social ul .l2:hover {
+  transform: translate(88px, 0);
+  background: rgba(255, 255, 255, 0.4);
+}
+.social ul .l3:hover {
+  transform: translate(80px, 0);
+  background: rgba(255, 255, 255, 0.4);
+}
+.social ul .l4:hover {
+  transform: translate(100px, 0);
+  background: rgba(255, 255, 255, 0.4);
+}
+.social ul li:hover a {
+  color: #5e5e5e;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-size: 18px;
+}
+.social ul li:hover i {
+  background: #fff;
+  transform: rotate(360deg);
+  transition: all 1s;
+}
+
+.social ul li:hover .fa-instagram {
+  color: #e1306c;
+}
+.social ul li:hover .fa-github {
+  color: #6e5494;
+}
+.social ul li:hover .fa-telegram {
+  color: #229ed9;
+}
+.social ul li:hover .fa-envelope {
+  color: #f21d1d;
+}
+.social ul li:hover .fa-linkedin-in {
+  color: #0077b5;
+}
+
+.social ul li i {
+  margin-left: 10px;
+  color: #fff;
+  background: #000;
+  padding: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  transform: rotate(0deg);
+}
