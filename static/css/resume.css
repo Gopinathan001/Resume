@@ -672,6 +672,9 @@ footer p {
   .about-containers {
     margin-top: 0;
   }
+  .social{
+    visibility: hidden;
+  }	
 }
 
 @media screen and (max-width: 600px) {
