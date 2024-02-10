@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="./static/css/resume.css" />
+    <link rel="icon" type="image/png" href="./static/img/svgviewer-png-output (3).png">
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-bar">
+        <i class="bx bx-menu sidebarOpen"></i>
+        <span class="logo navLogo"><a href="./index.html">Gopinathan S</a></span>
+
+        <div class="menu">
+          <div class="logo-toggle">
+            <span class="logo"><a href="./index.html">Gopinathan S</a></span>
+            <i class="bx bx-x siderbarClose"></i>
+          </div>
+
+          <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="darkLight-searchBox">
+          <div class="dark-light">
+            <i class="bx bx-moon moon"></i>
+            <i class="bx bx-sun sun"></i>
+          </div>
+
+          <div class="searchBox">
+            <div class="searchToggle">
+              <i class="bx bx-x cancel"></i>
+              <i class="bx bx-search search"></i>
+            </div>
+
+            <div class="search-field">
+              <input type="text" placeholder="Search..." />
+              <i class="bx bx-search"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+<!-- social icons -->
+<div class="social">
+  <ul>
+      <li class="l1"><a href="https://www.instagram.com/gopi_senthil_hdg/?hl=en">Instagram <i class="fa-brands fa-instagram"></i></a></li>
+      <li class="l2"><a href="https://github.com/Gopinathan001">Github <i class="fa-brands fa-github"></i></a></li>
+      <li class="l3"><a href="mailto:gopi852000@gmail.com">Gmail <i class="fa-solid fa-envelope"></i></a></li>
+      <li class="l4"><a href="https://www.linkedin.com/in/gopi-nathan-583047277/">Linkedin <i class="fa-brands fa-linkedin-in"></i></a></li>
+  </ul>
+</div>
+    <!-- profile pic -->
+    <section id="profile" >
+      <div class="pic-container">
+          <img src="./static/img/Gopi.png" alt="Gopinathan S profile picture">
+      </div>
+      <div class="sec_text">
+          <p class="sec_text_p1">Hello, I'm</p>
+          <h1 class="nametitle">Gopinathan S</h1>
+          <p class="sec_text_p2">Backend Developer</p>
+          <div class="btn-container">
+              <button class="btn btn-color-2" onclick="window.open('../static/img/Gopinathan S.pdf')"> Download CV </button>
+              <!-- <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button> -->
+          </div>
+          <div id="socials-container">
+              <i class="fa-brands fa-linkedin-in" style="font-size:30px" onclick="location.href='https://www.linkedin.com/in/gopi-nathan-583047277/'"></i>
+              <i class="fa-brands fa-github"style="font-size:30px" onclick="location.href='https://github.com/Gopinathan001'"></i>
+          </div>
+          <p class="sec_text_p1">gopi852000@gmail.com</p>
+      </div>
+    </section>
+     <!-- about -->
+     <section id="about">
+      <p class="sec_text_p1">Get To Know More</p>
+      <h1 class="nametitle">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h3>Experience</h3>
+              <p>Internship done in ACCENT TECHNO SOFT,<br> Coimbatore in Python Technology</p>
+            </div>
+            <div class="details-container">
+              <h3>Education</h3>
+              <p> <b>M.C.A</b> (2021-2023) - <b>68%</b> - Kongu Arts And Science College, Erode.</p>
+              <p> <b>B.C.A</b> (2018-2021) - <b>65%</b> - AVS Arts and Science College, Salem.</p>
+              <p> <b>HSC</b> (2018) - <b>55%</b> - Major in Computer & Maths - Little flower higher secondary school, Salem.</p>
+              <p> <b>SSLC</b> (2016) - <b>66%</b> - Little Flower Matriculation School, Salem.</p>
+            </div>
+          </div>
+          
+          <div class="text-container">
+            <h3>Certification</h3>
+            <ul class="aa">
+              <li><p>I am taking a course on Back-end Development at GREENS TECHNOLOGY Academy in Chennai.</p></li>
+              <li><p>Completed certification in Python using the Django framework at Accent Techno Soft, Coimbatore.</p></li>
+              <li><p>I attended workshop classes on 'Adobe Photoshop and CorelDRAW' at AVS Arts and Science College, Salem.</p></li>
+            </ul>
+            <br>
+            <h3>Strength</h3>
+            <ul class="aa">
+              <li><p>Good Understanding and hands-on Knowledge of the OOPs concept.</p></li>
+              <li><p>Proficiency in Python.</p></li>
+              <li><p>Familiarity with front-end technologies such as HTML, CSS, and BOOTSTRAP.</p></li>
+              <li><p>Ability to learn new technology within a minimum time period.</p></li>
+              <li><p>Being flexible to changing circumstances.</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <!-- experience -->
+    <section id="experience">
+      <p class="sec_text_p1">Explore My</p>
+      <h1 class="nametitle">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./static/img/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./static/img/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./static/img/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./static/img/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              </article>
+              
+            </div>
+          </div>
+          
+        </div>
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Back-end Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./static/img/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>sqlite3</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./static/img/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./static/img/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./static/img/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Django</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./static/img/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Git</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+    <section id="projects">
+      <p class="sec_text_p1">Browse My Recent</p>
+      <h1 class="nametitle">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers" id="To-Do-List-Project">
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">To Do List</h2> 
+
+            <div class="article-container">
+              <video src="./static/img/ToDoList.mp4" type="video/mp4" class="project-img" controls loop> </video>
+            </div>
+            <br>
+            <div class="btn-container">
+              <a href="#To-Do-List"><button class="btn btn-color-2 project-btn info-btn" >Project Details <i class="fas fa-info-circle"></i></button></a>
+            </div>
+            <div id="To-Do-List" class="overlay">
+              <div class="popup">
+                <h2>To-Do-List</h2>
+                <a class="close" href="#To-Do-List-Project">&times;</a>
+                <div class="content">
+                  <ul class="aa">
+                    <li><p>Developed a comprehensive Todo List project, showcasing proficiency in <b>full-stack development.</b></p></li>
+                    <li><p>Implemented features such as task prioritization, real-time updates, and user authentication for a seamless user experience.</p></li>
+                    <li><p>Utilized technologies like html,  css, jquery for the frontend and  for the phyton django backend, demonstrating a solid understanding of modern web development practices.</p></li>
+                    <li><p>The project highlights my ability to create intuitive and efficient solutions while incorporating best practices in coding and user interface design.</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-containers" id="Section-and-Student-CRUD-Project">
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">Section and Student CRUD Operations</h2>
+
+            <div class="article-container">
+              <video src="./static/img/Student Crud Operations.mp4" type="video/mp4" class="project-img" controls loop> </video>
+            </div>
+            <br>
+            <div class="btn-container">
+              <a href="#Section-and-Student-CRUD"><button class="btn btn-color-2 project-btn info-btn">Project Details <i class="fas fa-info-circle"></i></button></a>
+            </div>
+            <div id="Section-and-Student-CRUD" class="overlay">
+              <div class="popup">
+                <h2>Section and Student CRUD Operations</h2>
+                <a class="close" href="#Section-and-Student-CRUD-Project">&times;</a>
+                <div class="content">
+                  <ul class="aa">
+                    <li><p>Designed and implemented a robust Student Section and Admission Management system, incorporating <b>CRUD (Create, Read, Update, Delete)</b> operations for efficient data manipulation.</p></li>
+                    <li><p>Employed <b>Django</b> for the backend to ensure secure data handling and seamless CRUD functionality.</p></li>
+                    <li><p>This project underscores my proficiency in creating comprehensive solutions for educational administration, emphasizing user-friendly interfaces, data integrity, and dynamic CRUD capabilities.</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">Registration form</h2>
+            <div class="article-container">
+              <img
+                src="./static/img/registration form .jpg"
+                alt="registration form"
+                class="project-img"
+              />
+            </div>
+            <br>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Gopinathan001/responsive_registration_form.github.io'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://gopinathan001.github.io/responsive_registration_form.github.io/signup.html'">Live Demo</button>
+            </div>
+          </div>
+        </div>
+        <div class="text-container" id="kpro">
+          <h3>PG Project Description </h3>
+          <p><strong>VETERINARY CARE FOR ANIMALS</strong></p>
+          <ul class="aa">
+            <li><p>The web-based system is used by users to treat their pet animals in an efficient way where they can take treatment to their pets from the place where they are.</p></li>
+            <li><p>This system helps the user to get prescriptions from veterinary doctors online. This application is useful for distant areas, instant consulting, and prescription.</p></li>
+            <li><p>The system is designed using the Python Django framework.</p></li>
+          </ul>
+          <p><strong>Technologies Used:</strong></p>
+          <ul class="aa">
+            <li><p><strong>Frontend:</strong> HTML, CSS, Bootstrap <strong>Backend:</strong> sqlite3</p></li>
+          </ul>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer id="footer">
+      <div class="footer">
+        <div class="fo-address fo">
+          <div class="fo-add-head-todo">
+            <h3>RESUME</h3>
+          </div>
+          <div class="fo-add-content-todo">
+            <ul>
+              <li class="nav_menu_item-to">
+                <a href="./index.html" class="nav_menu_link-to">Home</a>
+              </li>
+              <li class="nav_menu_item-to">
+                <a  href="#about" onclick="toggleMenu()" class="nav_menu_link-to">About</a>
+              </li>
+              <li class="nav_menu_item-to">
+                <a  href="#experience" onclick="toggleMenu()" class="nav_menu_link-to">Experience</a>
+              </li>
+              <li class="nav_menu_item-to">
+                <a  href="#projects" onclick="toggleMenu()"class="nav_menu_link-to">Projects</a>
+              </li>
+              <li class="nav_menu_item-to">
+                <a href="#footer" class="nav_menu_link-to">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+          <div class="fo-address fo">
+            <div class="fo-add-head">
+              <h3>ADDRESS</h3>
+            </div>
+            <div class="fo-add-content">
+              <a href="https://www.google.com/maps/place/14,+Seetharam+Rd,+Shevapet,+Salem,+Tamil+Nadu+636009/@11.6578133,78.1482076,17z/data=!3m1!4b1!4m5!3m4!1s0x3babf033dc5db72f:0xc3f426ad796a9ca7!8m2!3d11.6578133!4d78.1507825?entry=ttu">
+                <p>14, Seetharaman Road,</p>
+                <p>Arisipalayam,</p>
+                <p>Salem - 636 009</p>
+              </a>
+            </div>
+          </div>
+          <div class="fo-follow-us fo">
+            <div class="fo-fol-head">
+              <h3>FOLLOW US</h3>
+            </div>
+            <div class="fo-fol-content">
+              <div class="fo-row-1">
+                
+                <a target="blank" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                <a target="blank" href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                <a target="blank" href="https://workspace.google.com/intl/en_in/"><i class="fab fa-google-plus-g"></i></a>
+              </div>
+             
+            </div>
+          </div>
+  
+          <div class="fo-contact-us fo">
+            <div class="fo-con-head">
+              <h3>CONTACT US</h3>
+            </div>
+            <div class="fo-con-content">
+              <div class="fo-phone">
+                <a href="#" class="fo-p">+91 90035 16731</a>
+              </div>
+              
+              <div class="fo-mail">
+                <a href="#" class="fo-p">gopi852000@gmail.com</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </footer>
+    <footer class="copyfoot">
+      <p>Copyright &#169; 2023 Gopinathan S. All Rights Reserved.</p>
+    </footer>
+    <script src="./static/js/navbar.js"></script>
+  </body>
+
+</html>
